@@ -4,7 +4,7 @@ public class InputManager : MonoBehaviour
 {
     //small value to confirm its swipe or not
     [SerializeField] private float threshHold = 0.1f;
-    //ref to playerController
+    //reference to playerController
     [SerializeField] private PlayerController playerController;
 
     //Vector3 to store start touch position and end touch position
